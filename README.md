@@ -1,9 +1,5 @@
 # Dashboard interactivo vehiculos vendidos en Uruguay 2024
 
-
-**INTRODUCCION**:
-El primer proyecto que realice fue sobre la venta de 0 km en Uruguay del mes de enero a octubre de 2024. La base de datos fue extraida de la pagina de la ACAU (Asociacion del Comercio Automotor del Uruguay). Para este proyecto mi objetivo fue averiguar cuales fueron los autos mas vendidos en el año. A su vez me parecia interesante analizar que vehiculo era el mas vendido y su tipo de combustible. Esto se debe a que, segun el gobierno de Uruguay y los periodicos, este año aumento considerablemente la venta de los vehiculos electricos e hibridos. 
-
 **ETL**:
 Para poder analizar los datos, tuve que limpiar la base de datos ya que contenia informacion que no iba a utilizar por lo que tuve que eliminar "IMESI, cantidad de puertas del vehiculo, cilindradas, etc). Esta informacion no me parecia relevante.
 Luego se me presento el problema de que la base de datos estaba filtrada por mes y cantidad total. Por lo que a la hora de cargarlo en Power BI, este mismo, no me lo reconocia como un mes sino que lo consideraba un texto general. Esto me iba a traer muchos problemas a la hora de querer filtrar la informacion con slicers y filtros varios en el dashboard.
